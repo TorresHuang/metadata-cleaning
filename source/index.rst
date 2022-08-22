@@ -7,8 +7,7 @@
 ======================================
 
 .. toctree::
-   :maxdepth: 3
-   :caption: Contents:
+   :maxdepth: 2
 
    Cpp/index 
 

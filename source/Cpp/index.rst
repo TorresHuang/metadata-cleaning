@@ -3,11 +3,49 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-数据源
+元数据总览
 =================================
 
 .. toctree::
-  :maxdepth: 2
+  :maxdepth: 1
 
-  各数据中心提交的数据/index
-  科学数据中心的数据/index
+  @type
+  @id
+  publisher
+  includedInDataCatalog
+  keywords
+  type
+  sdDchema
+  identifier
+  name
+  version
+  accessRights
+  license
+  accessRestrictions
+  image
+  byteSize
+  fileNumber
+  sourceOrganization
+  references
+  originalStatement
+  privacyStatement
+  privacyProtection
+  sdCreator
+  url
+  creativeWorkStatus
+  datePublished
+  hasCurrentVersion
+  description
+  fundingReferences
+  Subject
+  creator
+  contributor
+  copyrightHolder
+  dateAvailable
+  provider
+  syncDate
+  dowbLoadURL
+  encodingFormat
+  sameAs
+
+

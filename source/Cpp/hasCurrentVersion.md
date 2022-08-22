@@ -1,0 +1,1 @@
+# https://www\\u002Ew3\\u002Eorg/TR/2020/REC-vocab-dcat-2-20200204/hasCurrentVersion
