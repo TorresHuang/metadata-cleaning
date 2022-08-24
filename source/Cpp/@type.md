@@ -23,6 +23,7 @@
   * 英文名称：software patent
     + IRI:<a href="http://purl.org/coar/resource_type/MW8G-3CR8" target="_blank">http://purl.org/coar/resource_type/MW8G-3CR8</a>
 
+<a id="jump1"></a>
 ### 2.2 科学数据中心的数据实例：
   - 原始名称：服务工具-数据中心
     * 英文名称：software
@@ -73,18 +74,16 @@
                              
 ## 3. 数据处理流程
 ### 3.1 新收割来的数据-数据处理流程：
-1. 
-2. Clean up the page
-   * Make the headings bigger
-2. Push my changes
-3. Create code review
-   * Describe my changes
-   * Assign reviewers
-     * Ask for feedback
-     
+1. 如果出现值dcmi:Dataset，将其转化为<a href="http://purl.org/dc/dcmitype/Dataset" target="_blank">http://purl.org/dc/dcmitype/Dataset</a>。并以string的形式存储在@type字段中；
+2. 如果值中没有“http://”在其中，那么记下整条数据的信息，存储在文档中，进行人工核验；
+3. 如果没有前边的两步问题，直接以string的形式存储在@type字段中。
+
 ### 3.2 科学数据中心的数据-数据处理流程：
+1. 全部数据存储在t_data_resources表内的type字段中，按照[2.2](#jump1)里的内容将对应的原始名称转化为相应的IRI。  
+    &nbsp;
+    *  示例：![type示例图](image/type_img.png)
 
 ## 4. 标准规范
 ```json
-"@type" : "dcmi:Dataset",
+"@type" : "http://purl.org/dc/dcmitype/Dataset",
 ``` 

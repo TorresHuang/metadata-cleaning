@@ -1,7 +1,20 @@
-# schema:includedInDataCatalog
+# 属性名： schema:includedInDataCatalog
 
-中国科学院冰川冻土沙漠科学数据中心
+## 1. 描述
+包含的数据分类。
 
-## 二级标题
+## 2. 数据处理流程
+### 2.1 新收割来的数据-数据处理流程：
+  * 直接将数据存储进对应的 ___schema:includedInDataCatalog___ 字段中。
 
-中国科学院冰川冻土沙漠科学数据中心
+## 3. 标准规范
+```json
+"schema:includedInDataCatalog" : 
+[
+    "极地",
+    {
+        "@value" : "Polar region",
+        "@language" : "en"
+    }
+],
+``` 

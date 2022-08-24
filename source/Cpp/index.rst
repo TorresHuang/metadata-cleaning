@@ -22,13 +22,13 @@
   accessRights
   license
   accessRestrictions
-  image
   byteSize
   fileNumber
   sourceOrganization
   references
   originalStatement
   privacyStatement
+  sensitiveContent
   privacyProtection
   sdCreator
   url
