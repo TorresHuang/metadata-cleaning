@@ -13,8 +13,12 @@
         +  中国科学院干细胞与再生医学科学数据中心: <a href="http://data.iscr.ac.cn/Article?id=1976cb7734814431b0220e137d34d843" target="_blank">http://data.iscr.ac.cn/Article?id=1976cb7734814431b0220e137d34d843</a>
 
   ***
-  * <font color="#fc5531">中国科学院南京地理与湖泊研究所所级中心</font>给的@id全部是数值型数据，需要从新提交数据。
-	  *  示例：148.0
+  * <font color="#fc5531">中国科学院南京地理与湖泊研究所所级中心</font>、<font color="#fc5531">中国科学院南京土壤研究所所级中心</font>给的@id全部是数值型数据，需要从新提交数据。
+  ``` json
+  示例：
+
+	"@id":"40",
+  ```
   ***
 
   * <font color="#fc5531">中国科学院广州生物医药与健康研究所所级中心</font>给的@id全部链接到<font color="#fc5531">GIBH科学数据中心</font>的首页里，且没有给重定向，需要从新提供信息。
@@ -42,7 +46,7 @@ https://cstr.cn/31253.11.sciencedb.607
 &nbsp;
     *  示例：![error](image/error.png)
 
-  * 其他数据中心保持原始的@id的值。
+  * 其他数据中心保持原始的@id的值，直接将@id的值存储在@id字段中。
 
 ### 3.2 科学数据中心的数据-数据处理流程：
  * 全部数据存储在t_data_resources表内的cstr字段中，如果字段值是<font color="#fc5531">undefined</font>，那么@id字段的值直接存为undefined；

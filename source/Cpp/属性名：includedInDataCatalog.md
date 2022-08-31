@@ -9,6 +9,8 @@
 
 ## 3. 标准规范
 ```json
+例1：
+
 "schema:includedInDataCatalog" : 
 [
     "极地",
@@ -17,4 +19,8 @@
         "@language" : "en"
     }
 ],
+
+例2：
+
+"schema:includedInDataCatalog":"植被生态",
 ``` 

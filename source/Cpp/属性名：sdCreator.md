@@ -17,6 +17,21 @@
 
   * 将<font color="#fc5531">中国科学院冰川冻土沙漠科学数据中心</font>属性里的数据直接存储在 ___casdc:sdCreator___ 字段下。
 
+  * 将<font color="#fc5531">中国科学院南京土壤研究所所级中心</font>根据 ___@id___ list里数据，对 ___casdc:sdCreator___ 里的内容进行补全。
+
+```json
+原始数据
+
+"casdc:sdCreator":{
+   "@id":[
+      "https://orcid.org/0000-0002-2946-0428",
+      "https://orcid.org/0000-0001-5122-3579"
+  ]
+}
+
+```
+   
+
 
 ## 3. 标准规范
 ```json

@@ -57,6 +57,23 @@
     },
  ``` 
 
+   * <font color="#fc5531">中国科学院南京土壤研究所所级中心</font>需要从新提交项目的具体描述信息，即 ___schema:description___ 字段。
+
+
+``` json
+原始数据
+
+ "dct:fundingReferences":[
+  {
+    "@id":"32071588",
+    "@type":"国家自然科学基金资助项目",
+    "schema:funder":"国家自然科学基金委",
+    "schema:name":"荒漠植物白沙蒿种子粘液物质的微生物降解机制及其在种群更新中的作用",
+    "schema:description":"略。。。"
+  }
+],
+ ``` 
+
    * <font color="#fc5531">中国科学院冰川冻土沙漠科学数据中心</font>的数据可以直接存储在数据库中。
 
 ## 3. 数据处理流程

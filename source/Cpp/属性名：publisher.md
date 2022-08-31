@@ -52,6 +52,28 @@
 }
 ```
 
+  * <font color="#fc5531">中国科学院南京土壤研究所所级中心</font>需要对@id的内容进行修改。
+```json
+修改前
+ "publisher": {            
+    "@type":"Organization",
+    "@id":"发布机构 id",
+    "name":"南京土壤研究所所级科学数据中心"
+  }
+```
+
+```json
+修改后
+
+ "publisher": {            
+    "@type":"Organization",
+    "@id":"http://semweb.casdc.cn/resource/casorgs#ISSCAS",
+    "name":"南京土壤研究所所级科学数据中心"
+  }
+```
+
+  * 其余数据中心可以将 ___schema:publisher___ 的值直接存储在 ___schema:publisher___ 字段中。
+
 ### 2.2 科学数据中心的数据-数据处理流程：
 
 ```json
