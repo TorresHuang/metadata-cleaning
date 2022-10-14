@@ -46,5 +46,4 @@
   属性名：dowbLoadURL
   属性名：encodingFormat
   属性名：sameAs
-
-
+  属性名：description
